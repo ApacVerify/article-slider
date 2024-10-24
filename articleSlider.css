@@ -27,9 +27,22 @@
                 cursor: pointer;
             }
 
+            #prev-articles:hover {
+                -ms-transform: scale(1.5); /* IE 9 */
+                -webkit-transform: scale(1.5); /* Safari */
+                transform: scale(1.5); /* Modern browsers */
+            }
+                       
+
             .article-pagination #next-articles {
                 float: right;
                 cursor: pointer;
+            }
+
+            #next-articles:hover {
+                -ms-transform: scale(1.5); /* IE 9 */
+                -webkit-transform: scale(1.5); /* Safari */
+                transform: scale(1.5); /* Modern browsers */
             }
 
             .article-pagination .active {
