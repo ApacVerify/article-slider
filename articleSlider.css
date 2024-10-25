@@ -122,16 +122,10 @@
         height: 120px; /* Larger image on smaller screens */
     }
 
-    .article-pagination #prev-articles,
-    .article-pagination #next-articles {
-        float: none;
-        margin: 10px 0;
-    }
+    
 
     .article-pagination {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+       position: relative;
     }
 
     .tags {
