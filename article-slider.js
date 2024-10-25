@@ -5,7 +5,7 @@
         const prevButton = document.getElementById('prev-articles');
         const nextButton = document.getElementById('next-articles');
         const pageNumbers = document.getElementById('page-numbers');
-        const pageLinks = document.querySelectorAll('.page-link');
+        const pageLinks = document.querySelectorAll('.dot-article');
 
         const cards =
             Array.from(dataContainer.getElementsByClassName('card'));
